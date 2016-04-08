@@ -1,0 +1,26 @@
+{
+  "name": "ionic-keep-bottom",
+  "version": "0.1.0",
+  "authors": [
+    "Peter Vavro <peter@vavro.me>"
+  ],
+  "description": "An Ionic directive to scroll to the bottom of the content automatically on change.",
+  "main": "ionic-keep-bottom.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "ionic",
+    "scroll",
+    "glue"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/petervavro/ionic-keep-bottom",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
