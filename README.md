@@ -12,7 +12,7 @@ $ bower install --save ionic-keep-bottom
 
 Load script
 ```bash
-    <script src="lib/ionic-keep-bottom/dist/ionic-keep-bottom.js"></script>
+    <script src="lib/ionic-keep-bottom/ionic-keep-bottom.js"></script>
 ```
 
 Add ionic-keep-bottom as dependency to your project
