@@ -7,9 +7,9 @@
 (function(angular, undefined){
     'use strict';
 
-    var module = angular.module('ionic-keep-bottom', []);
-
-    module.directive('keepBottom', ['$timeout', '$window', '$ionicScrollDelegate', function($timeout, $window, $ionicScrollDelegate) {
+    angular
+    .module('ionic-keep-bottom', [])
+    .directive('keepBottom', ['$timeout', '$window', '$ionicScrollDelegate', function($timeout, $window, $ionicScrollDelegate) {
       return {
         restrict: 'A',
         link: function(scope, element, attr) {
