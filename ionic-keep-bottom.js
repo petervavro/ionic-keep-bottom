@@ -21,7 +21,7 @@
             };
 
             $window.addEventListener('resize', scrollToBottom, false);
-            scope.$watchCollection(attr.scroll, scrollToBottom);
+            scope.$watchCollection(attr.keepBottom, scrollToBottom);
         }
       }
     }]);
